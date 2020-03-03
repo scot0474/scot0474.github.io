@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML FORM</title>
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<section id="html-form" class="main-section">
+			<form action="somepage.php" method="get">
+				<div id="firstname-container" class="form-elm">
+					<label for="Firstname">First name</label>
+					<input type="text" name="Firstname" id="Firstname" placeholder="First name goes here">
+				</div>
+				<div id="Lastname-container" class="form-elm">
+					<label for="Lastname">Last name</label>
+					<input type="text" name="Lastname" id="Lastname" placeholder="Last name goes here">
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email</label>
+					<input type="email" name="Firstname" id="email" value="example@g.com" readonly>
+				</div>
+				<div id="password-container" class="form-elm">
+					<label for="password">Password</label>
+					<input type="password" name="Password" id="Password">
+				</div>
+				<div id="intro-container" class="form-elm">
+					<label for="introduction">Introduction</label>
+					<textarea name="introduction" id="introduction" placeholder="Enter introduction here">
+						Write something here
+					</textarea>
+				</div>
+				<div id="dob-container" class="form-elm">
+					<label for="dob">Date of birth</label>
+					<input type="date" name="dob" id="dob"><br>
+				</div>
+				<div id="mobile-number-container" class="form-elm">
+					<label for="mb">Mobile number</label>
+					<input type="number" name="mb" id="mb">
+				</div>
+				<div id="gender-container" class="form-elm">
+					<p>Gender</p>
+					<label for="female">
+						<input type="radio" name="like-form" id="female" value="female">
+						Female
+					</label>
+					<label>
+						<input type="radio" name="like-form" id="male" value="no">
+						Male
+					</label>
+					<label>
+						<input type="radio" name="like-form" id="other" value="other">
+						Other
+					</label>
+				</div>
+				<div id="addr-container" class="form-elm">
+					<label for="address">Addresss</label>
+					<input type="text" name="address" id="address" placeholder="Addresss goes here">
+				</div>
+				<div id="city-container" class="form-elm">
+					<label for="city">City</label>
+					<input type="text" name="city" id="city" placeholder="City name goes here">
+				</div>
+				<div id="province-container" class="form-elm">
+					<label for="province">Province</label>
+					<select name="province" id="province">
+						<option value="alberta">Alberta</option>
+						<option value="british-columbia">British Columbia</option>
+						<option value="manitoba">Manitoba</option>
+						<option value="new-brunswick">New Brunswick</option>
+						<option value="newfoundland-and-labrador">Newfoundland And Labrador</option>
+						<option value="nova-scotia">Nova Scotia</option>
+						<option value="ontario">Ontario</option>
+						<option value="prince-edward-island">Prince Edward Island</option>
+						<option value="quebec">Quebec</option>
+						<option value="saskatchewan">Saskatchewan</option>
+					</select>
+				</div>
+				<div id="country-container" class="form-elm">
+					<label for="country">Country</label>
+					<select name="country" id="country">
+						<option value="canada">Canada</option>
+					</select>
+					<div id="pc-container" class="form-elm">
+					<label for="pc">Postal code</label>
+					<input type="text" name="pc" id="pc" placeholder="Postal code goes here">
+				</div>
+				<div id="hobbies-container" class="form-elm">
+					<h1>Hobbies:</h3>
+					<label for="Reading">Reading</label>
+					<input type="checkbox" name="Hobbies" id="Reading" value="Reading"> <br>
+
+					<label for="Sports">Sports</label>
+					<input type="checkbox" name="Hobbies" id="Sports" value="Sports"> <br>
+
+					<label for="Drawing">Drawing</label>
+					<input type="checkbox" name="Hobbies" id="Drawing" value="Drawing"> <br>
+
+					<label for="other">Other</label>
+					<input type="checkbox" name="Hobbies" id="other" value="other"> <br>
+				</div>
+				<div id="website-container" class="form-elm">
+					<label for="website">Enter a URL:</label>	
+					<input type="url" name="website" id="website" ><br>
+				</div>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+	</div>
+</body>
+</html>
